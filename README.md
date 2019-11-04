@@ -1,5 +1,13 @@
 # IFC to Brick
 
+This is a work in progress! Suggestions, improvements are very welcome.
+
+This currently converts the following IFC structures:
+- `IfcBuildingStorey` to `brick:Floor`
+- `IfcZone` to `brick:HVAC_Zone`
+- `IfcSpacee` to `brick:Room`
+- use `IfcRelAggregates` to associate rooms with HVAC zones and floors
+
 ## Requirements
 
 Install Python requirements from `requirements.txt`
